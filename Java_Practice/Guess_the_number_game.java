@@ -25,5 +25,6 @@ public class Guess_the_number_game{
             count++;
         }
         System.out.println("Secret Number = "+compInput);
+        System.out.println("Your Attempt are = "+count);
     }
 }
