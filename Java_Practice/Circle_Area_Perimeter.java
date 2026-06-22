@@ -10,7 +10,7 @@ class Circle{
         return (float)2*Math.PI*radius;
     }
 }
-public class Circle_Arean_Perimeter {
+public class Circle_Area_Perimeter {
     public static void main(String [] args){
         Circle c1 = new Circle();
         c1.setRadius(5);
