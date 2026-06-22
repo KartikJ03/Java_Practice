@@ -1,13 +1,13 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class Rock_Paper_Sccisor_Game {
+public class Rock_Paper_Scissor_Game {
     public static void main(String [] args){
         Random r = new Random();
         Scanner sc = new Scanner(System.in);
 
         int comp_in = r.nextInt(3);
-        System.out.println("0 = Rock\n1 = Paper\n2 = Sccisor");
+        System.out.println("0 = Rock\n1 = Paper\n2 = Scissor");
         System.out.print("Enter your number = ");
         int user_in = sc.nextInt();
         if (user_in<0 || user_in>2){
@@ -21,6 +21,12 @@ public class Rock_Paper_Sccisor_Game {
         }else {
             System.out.println("Computer Wins");
         }
-        System.out.println("Computer input = "+comp_in);
+        if (comp_in==0){
+            System.out.println("Computer Choose Rock");
+        } else if (comp_in==1){
+            System.out.println("Computer Choose Paper");
+        } else if (comp_in==2) {
+            System.out.println("Computer Choose Scissor");
+        }
     }
 }
