@@ -29,6 +29,9 @@ class Employee{
     }
 
     public void setSalary(int salary) {
+        if (salary<0){
+            System.out.println("Invalid");
+        }
         this.salary = salary;
     }
     void displayingdetails(){
