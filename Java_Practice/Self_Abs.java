@@ -2,11 +2,11 @@ interface S1{
     void meth1();
     void meth2();
 }
-interface S2{
+interface S2 extends S1{
     void meth3();
     void meth4();
 }
-class final1 implements S2,S1{
+class final1 implements S2{
     public void meth1(){
         System.out.println("meth1");
     }
