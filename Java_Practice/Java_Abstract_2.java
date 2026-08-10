@@ -32,7 +32,8 @@ class smartPhone implements Camera,GPS,mediaPlayer{
 }
 public class Java_Abstract_2 {
     public static void main(String [] args){
-        Camera P = new smartPhone();
+        Camera P = new smartPhone();// this is a smartphone but use it as a camera because reference of camera
+        //P.playSong --> Not allowed because reference is from Camera so Camera's methods can only be called
         P.record4K();
         P.takeSnap();
     }
