@@ -12,9 +12,5 @@ class child extends parent{
 }
 public class Java_Abstract_1 {
     public static void main(String [] args){
-        child c = new child();
-        c.greet();
-        c.warm();
-
-    }
+   }
 }
