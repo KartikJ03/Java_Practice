@@ -1,5 +1,6 @@
 public class Java_Coding_Test4 {
     public static void main(String [] args){
+        // First largest and Second Largest
         int [] numbers = {10,45,23,89,12,67};
         int largest = numbers[0];
         int secondLargest = numbers[1];
