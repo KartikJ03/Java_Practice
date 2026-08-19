@@ -21,12 +21,12 @@ public class Java_Thread_Methods {
         Mythr1 t1 = new Mythr1();
         Mythr2 t2 = new Mythr2();
         t1.start();
-        try {
+        /*try {
             t1.join();
         }
         catch (Exception e){
             System.out.println(e);
-        }
+        }*/
 
         t2.start();
     }
