@@ -1,3 +1,4 @@
+//This Practice Code Provides Understanding of threads (Not Runnable  interface)
 class thrState extends Thread{
     public void run(){
         int i = 0;
