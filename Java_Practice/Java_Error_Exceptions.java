@@ -1,5 +1,17 @@
 public class Java_Error_Exceptions {
     public static void main(String [] args){
-        System.out.println("Video 78");
+        // Here are some error demo
+
+        // Syntax Error
+        // int a = 5 --> Error : No Semicolon
+        // a = 5; --> Error : a not declared
+
+        //Logical Error
+
+        for(int i = 1 ; i<5 ; i++){
+            System.out.println(2*i+1);
+        }
+        /*This will be a logical error because it does not have desired outcome that
+        we want prime numbers*/
     }
 }
