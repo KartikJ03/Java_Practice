@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Java_Error_Exceptions {
     public static void main(String [] args){
         // Here are some error demo
@@ -13,5 +14,15 @@ public class Java_Error_Exceptions {
         }
         /*This will be a logical error because it does not have desired outcome that
         we want prime numbers*/
+
+        // Runtime Error
+
+        int k;
+        Scanner sc = new Scanner(System.in);
+        k = sc.nextInt();
+        System.out.println("Integer part of 1000 divided by k is "+1000/k);
+
+        // This will throw a runtime error if we put 0 in the input
+        // Arithmetic Exception
     }
 }
