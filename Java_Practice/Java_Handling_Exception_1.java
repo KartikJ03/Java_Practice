@@ -29,5 +29,6 @@ public class Java_Handling_Exception_1 {
             System.out.println("Some exception occured");
             System.out.println(e);
         }
+        System.out.println("End Of Program");
     }
 }
