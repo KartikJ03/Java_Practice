@@ -6,7 +6,8 @@ public class Java_Handling_Exception  {
         try {
             int c = a/b;
             System.out.println("The Result is = "+c);
-        }catch (Exception e){
+        }
+        catch (Exception e){
             System.out.println("We failed to devide Reason: ");
             System.out.println(e);
         }
