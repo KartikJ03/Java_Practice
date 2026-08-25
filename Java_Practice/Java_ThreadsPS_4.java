@@ -9,6 +9,7 @@ class thrState extends Thread{
     }
 }
 class thrState1 extends Thread{
+
     public void run(){
         int i = 0;
         while(i<100) {
