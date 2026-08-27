@@ -9,6 +9,7 @@ class Thread1 extends Thread{
 
     }
 }
+
 class Thread2 extends Thread{
     public void run(){
         int i = 0;
