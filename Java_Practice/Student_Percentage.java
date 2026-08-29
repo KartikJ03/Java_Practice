@@ -14,6 +14,7 @@ public class Student_Percentage {
         int s5 = sc.nextInt();
         int total = s1+s2+s3+s4+s5;
         System.out.println("Your total marks are = "+ total);
+
         float percentage = (total/500f)*100;
         System.out.printf("Your percentage are = %f",percentage );
         System.out.println();
