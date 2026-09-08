@@ -6,6 +6,7 @@ class EmailNotification implements Notification{
         System.out.println("Email sent = "+message);
     }
 }
+
 class SMSNotification implements Notification{
     public void send(String message){
         System.out.println("SMS sent = "+message);

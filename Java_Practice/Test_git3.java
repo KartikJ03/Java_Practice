@@ -10,6 +10,7 @@ public class Test_git3 {
         if (s.equalsIgnoreCase(rev)){
             System.out.println("palindrom");
         }else {
+
             System.out.println("Not palindrome");
         }
     }

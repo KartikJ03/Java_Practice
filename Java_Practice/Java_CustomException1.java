@@ -17,6 +17,7 @@ class Java_CustomException1{
                 throw new InvalidAgeException();
 
             }
+
             catch(InvalidAgeException e){
                 System.out.println(e.getMessage());
 

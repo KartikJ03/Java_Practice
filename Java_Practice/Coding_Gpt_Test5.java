@@ -9,6 +9,7 @@ public class Coding_Gpt_Test5 {
             reverse = reverse *10 + digit;
             n = n/10;
         }
+
         if (original==reverse){
             System.out.println("Palindrome");
         }else {
