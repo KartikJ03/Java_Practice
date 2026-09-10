@@ -60,6 +60,39 @@ class bike14 implements vehicle14{
     }
 
 }
+class truck14 implements vehicle14{
+    String vehicleNumber;
+    String brand;
+    int rentPerDay;
+    truck14(String vehicleNumber, String brand, int rentPerDay){
+        this.vehicleNumber = vehicleNumber;
+        this.brand = brand;
+        this.rentPerDay = rentPerDay;
+    }
+    @Override
+    public void displayDetails(){
+        System.out.println("Truck");
+        System.out.println("Number : "+vehicleNumber);
+        System.out.println("Brand : "+brand);
+        System.out.println("Rent/Day : "+rentPerDay);
+    }
+    @Override
+    public void calculateRent(int days){
+        int rent = rentPerDay*days;
+        if (days>10){
+            double discount = rent*0.15;
+            double discountedRent = rent-discount;
+            System.out.println("Number of Days : "+days);
+            System.out.println("Rent : "+rent);
+            System.out.println("15% Discount : "+discount);
+            System.out.println("Final Rent : "+discountedRent);
+        }
+        else {
+            System.out.println("Number of Days : "+days);
+            System.out.println("Rent : "+rent);
+        }
+    }
+}
 public class Revision_Practice_Test7{
     public static void main(String [] args){
         vehicle14 c1 = new car14("MH12XU1590", "Taigun", 720);
@@ -73,6 +106,11 @@ public class Revision_Practice_Test7{
         bike14 c2 = new bike14("MH04XV3453", "Yamaha", 400);
         c2.displayDetails();
         c2.calculateRent(4);
+        System.out.println();
+        c1 = new truck14("MH12WJ2134", "TATA", 1700);
+        c1.displayDetails();
+        c1.calculateRent(12);
+
 
     }
 }
