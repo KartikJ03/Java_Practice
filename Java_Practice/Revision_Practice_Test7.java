@@ -107,9 +107,9 @@ public class Revision_Practice_Test7{
         c2.displayDetails();
         c2.calculateRent(4);
         System.out.println();
-        c1 = new truck14("MH12WJ2134", "TATA", 1700);
-        c1.displayDetails();
-        c1.calculateRent(12);
+        vehicle14 c3 = new truck14("MH12WJ2134", "TATA", 1700);
+        c3.displayDetails();
+        c3.calculateRent(12);
 
 
     }
