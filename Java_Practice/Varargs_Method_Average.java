@@ -8,6 +8,7 @@ public class Varargs_Method_Average {
             total += element;
         }
         int avg = total/arr.length;
+
         return avg;
     }
 
