@@ -8,6 +8,7 @@ public class Test_git4 {
                 max = marks[i];
             }
         }
+
         System.out.println(max);
     }
 }
