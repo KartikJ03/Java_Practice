@@ -13,6 +13,7 @@ class hercules implements Bicycle{
         System.out.println("The speed is incresed by = "+increment);
     }
 }
+
 public class Java_Practice_1 {
     public static void main(String [] args){
         hercules h = new hercules();
